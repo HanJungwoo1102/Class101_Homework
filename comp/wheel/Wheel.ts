@@ -7,7 +7,7 @@ class Wheel {
     public kind: WheelKind;
     public rpm: number = 0;
     
-    constructor(kind) { this.kind = kind; }
+    constructor(kind: WheelKind) { this.kind = kind; }
 
     public setNewRPM(r: number) { this.rpm = r; }
 }
